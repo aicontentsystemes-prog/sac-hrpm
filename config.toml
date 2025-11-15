@@ -1,1 +1,27 @@
+baseURL = 'https://aicontentsystem.github.io/sac-hrpm/'
+title = 'SAC-HRPM | Sistema Autónomo de Contenido de Alto RPM'
+languageCode = 'en-us'
+theme = 'ananke'
+defaultContentLanguage = 'en'
+
+[params]
+  description = 'Plataforma autónoma de generación, optimización y monetización de contenido de alto RPM impulsada por IA.'
+  background_color_class = 'bg-black'
+  recent_posts_number = 6
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    contentDir = "content/en"
+
+  [languages.es]
+    languageName = "Español"
+    weight = 2
+    contentDir = "content/es"
+
+  [languages.pt]
+    languageName = "Português"
+    weight = 3
+    contentDir = "content/pt"
  
